@@ -1,0 +1,64 @@
+.banner{
+    background-image: url("../img/imagem_festival.svg");
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.banner.experiencia{
+    background-image: none;
+    background-image: url("../img/imagem_experiencia1.svg");
+}
+
+.banner.setores{
+    background-image: none;
+    background-image: url("../img/imagem_setores.svg");
+}
+
+.banner.informacoes{
+    background-image: none;
+    background-image: url("../img/imagem_informacoes.svg");
+}
+
+.banner.ingressos{
+    background-image: none;
+    background-image: url("../img/imagem_ingresso.svg");
+}
+
+.banner.meuingresso{
+    background-image: none;
+    background-image: url("../img/imagem_meuingresso.svg");
+}
+
+.banner__titulo{
+    font-family: var(--fonte-titulos);
+    font-weight: 400;
+    font-size: 64px;
+    width: 60vw;
+    padding: 2.5em 0;
+}
+
+.banner__mapa{
+    width: 90vw;
+    margin: 2em 0 2em 3.5em;
+}
+
+@media screen and (min-width: 426px) and (max-width: 768px) {
+    .banner__titulo{
+        width: 70vw;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .banner__titulo{
+        width: 90vw;
+        font-size: 32px;
+    }
+
+    .banner__mapa{
+        width: 90vw;
+        margin: 2em 0 2em 1.75em;
+    }
+}

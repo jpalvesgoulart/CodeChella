@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Code Chella - O Festival</title>
+    <link rel="shortcut icon" href="/img/Símbolo-cinza 1.svg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Calistoga&family=Raleway:wght@500;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./styles/reset.css">
+</head>
+
+<body>
+    <header class="cabecalho">
+        <a href="index.html" class="cabecalho__link">   
+            <img src="img/Logo Code Chella.svg" alt="Logo do CodeChella" class="cabecalho__logo">
+        </a>
+
+        <input type="checkbox" id="menu" class="cabecalho__botao">
+        <label for="menu" class="cabecalho__menu">
+            <span class="menu__hamburguer"></span>
+        </label>
+
+        <ul class="lista__menu">
+            <li class="menu__item">
+                <a href="experiencia.html" class="item__link">A Experiência</a>
+            </li>
+            <hr/>
+            <li class="menu__item">
+                <a href="mapa-de-setores.html" class="item__link">Mapa de Setores</a>
+            </li>
+            <hr/>
+            <li class="menu__item">
+                <a href="informacoes.html" class="item__link">Informações</a>
+            </li>
+            <hr/>
+            <li class="menu__item">
+                <a href="ingressos.html" class="item__link">Ingressos</a>
+            </li>
+        </ul>
+
+        <nav class="navegacao">
+            <a href="experiencia.html" class="navegacao__link">A Experiência</a>
+            <a href="mapa-de-setores.html" class="navegacao__link">Mapa de Setores</a>
+            <a href="informacoes.html" class="navegacao__link">Informações</a>
+            <a href="ingressos.html" class="navegacao__link">Ingressos</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="banner">
+            <h1 class="banner__titulo">Boas-vindas ao #CodeChella2023!</h1>
+        </section>
+
+        <section class="datas">
+            <div class="datas__imagem"></div>
+            <div class="datas__descricao">
+                <h3 class="descricao__titulo">< 11 e 12 de Março > Aluródromo de São Paulo</h3>
+                <p class="descricao__texto">Hora de programar nossa memória com novas lembranças! Uma nova experiência sobre música, linguagens e, claro, tecnologia! Somos um festival diverso, com vários artistas e referências. Divirta-se!</p>
+                <a href="ingressos.html" class="descricao__botao">
+                    <p class="botao__texto">Comprar Ingressos!</p>
+                    <img src="./img/Imagem Botao.svg" alt="Imagem de um Ingresso" class="botao__imagem">
+                </a>
+            </div>
+        </section>
+
+        <section class="atracoes">
+            <h2 class="atracoes__titulo">/Line-Up/</h2>
+            <div class="atracoes__container">
+                <h3 class="container__data sabado">SÁBADO <11/03></h3>
+                <h4 class="container__titulo">System of a DOM</h4>
+                <ul class="container__lista primaria">
+                    <li class="lista-primaria__item">Python Maiden</li>
+                    <li class="lista-primaria__item">Apollo Client 2001</li>
+                    <li class="lista-primaria__item">Bon Java</li>
+                    <li class="lista-primaria__item">NickCallback</li>
+                </ul>
+                <ul class="container__lista secundaria">
+                    <li class="lista-secundaria__item">Linkin Promises</li>
+                    <li class="lista-secundaria__item">Fullstack Fighters</li>
+                    <li class="lista-secundaria__item">Papa React</li>
+                    <li class="lista-secundaria__item">Angular in Chains</li>
+                </ul>
+                <ul class="container__lista terciaria">
+                    <li class="lista-terciaria__item">Agnostic Front-end</li>
+                    <li class="lista-terciaria__item">SlipkNode</li>
+                    <li class="lista-terciaria__item">Pink Flutter</li>
+                    <li class="lista-terciaria__item">Kiss</li>
+                </ul>
+            </div>
+
+            <div class="atracoes__container">
+                <h3 class="container__data domingo">DOMINGO <12/03></h3>
+                <h4 class="container__titulo">Lana Del Ploy</h4>
+                <ul class="container__lista primaria">
+                    <li class="lista-primaria__item">Dua Lib</li>
+                    <li class="lista-primaria__item">The Backnd</li>
+                    <li class="lista-primaria__item">CSS Styles</li>
+                    <li class="lista-primaria__item">DJ Query</li>
+                    <li class="lista-primaria__item">ArrayAna Grande</li>
+                </ul>
+                <ul class="container__lista secundaria">
+                    <li class="lista-secundaria__item">Miley Cypress</li>
+                    <li class="lista-secundaria__item">The Bootstrap Boys</li>
+                    <li class="lista-secundaria__item">Json Derulo</li>
+                    <li class="lista-secundaria__item">CloudPlay</li>
+                    <li class="lista-secundaria__item">Dev Lovato</li>
+                </ul>
+                <ul class="container__lista terciaria">
+                    <li class="lista-terciaria__item">Kylie MiLOG</li>
+                    <li class="lista-terciaria__item">Jenkins Brothers</li>
+                    <li class="lista-terciaria__item">Rubycat Dolls</li>
+                </ul>
+            </div>
+        </section>
+        <div class="atracoes__imagem"></div>
+    </main>
+
+    <footer class="rodape">
+        <div class="rodape__redes">
+            <img src="./img/Logo Code Chella.svg" alt="Logo do CodeChella" class="redes__logo">
+            <div class="redes__botoes">
+                <p class="botoes__texto">Acesse minhas redes:</p>
+                <div class="botoes__links">
+                    <a href="#" class="botoes__ancora">
+                        <img src="img/whatsapp.png" alt="Icone WhatsApp" class="botoes__ancora__imagem">
+                    </a>
+                    <a href="#" class="botoes__ancora">
+                        <img src="img/twitch.png" alt="Icone Twitch" class="botoes__ancora__imagem">
+                    </a>
+                    <a href="#" class="botoes__ancora">
+                        <img src="img/insta.png" alt="Icone Instagram" class="botoes__ancora__imagem">
+                    </a>
+                    <a href="#" class="botoes__ancora">
+                        <img src="img/twitter.png" alt="Icone Twitter" class="botoes__ancora__imagem">
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="rodape__texto">
+            <p>Desenvolvido por João Pedro Alves.</p>
+            <p>Projeto fictício sem fins comerciais.</p>
+        </div>
+    </footer>
+</body>
+
+</html>

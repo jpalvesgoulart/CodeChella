@@ -1,0 +1,35 @@
+@import url("cabecalho.css");
+@import url("banner.css");
+@import url("datas.css");
+@import url("atracoes.css");
+@import url("rodape.css");
+@import url("setores.css");
+@import url("informacoes.css");
+@import url("ingressos.css");
+@import url("meuingresso.css");
+
+:root{
+    --fonte-titulos: 'Calistoga', cursive;
+    --fonte-textos: 'Raleway', sans-serif;
+    --cor-fonte: #ffffff;
+    --cor-cinza: #444444;
+    --cor-boreal: linear-gradient(180deg, #304968 0%, #36C1A0 52.6%, #4650BD 100%);
+    --primaria-roxo: #4650BD;
+    --primaria-verde: #008364;
+    --secundaria-azul: #304968;
+    --terciaria-coral: #36C1A0;
+    --terciaria-lilas: #B6BCFF;
+}
+
+* {
+    font-family: var(--fonte-textos);
+    font-size: 20px;
+    font-weight: 700;
+    color: var(--cor-fonte);
+    text-decoration: none;
+}
+
+body {
+    background: var(--cor-boreal);
+    background-repeat: no-repeat;
+}

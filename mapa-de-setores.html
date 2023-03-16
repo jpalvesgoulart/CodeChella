@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Code Chella - Mapa de Setores</title>
+    <link rel="shortcut icon" href="/img/Símbolo-cinza 1.svg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Calistoga&family=Raleway:wght@500;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./styles/reset.css">
+</head>
+
+<body>
+    <header class="cabecalho">
+        <a href="index.html" class="cabecalho__link">   
+            <img src="img/Logo Code Chella.svg" alt="Logo do CodeChella" class="cabecalho__logo">
+        </a>
+
+        <input type="checkbox" id="menu" class="cabecalho__botao">
+        <label for="menu" class="cabecalho__menu">
+            <span class="menu__hamburguer"></span>
+        </label>
+
+        <ul class="lista__menu">
+            <li class="menu__item">
+                <a href="experiencia.html" class="item__link">A Experiência</a>
+            </li>
+            <hr/>
+            <li class="menu__item">
+                <a href="mapa-de-setores.html" class="item__link">Mapa de Setores</a>
+            </li>
+            <hr/>
+            <li class="menu__item">
+                <a href="informacoes.html" class="item__link">Informações</a>
+            </li>
+            <hr/>
+            <li class="menu__item">
+                <a href="ingressos.html" class="item__link">Ingressos</a>
+            </li>
+        </ul>
+
+        <nav class="navegacao">
+            <a href="experiencia.html" class="navegacao__link">A Experiência</a>
+            <a href="mapa-de-setores.html" class="navegacao__link">Mapa de Setores</a>
+            <a href="informacoes.html" class="navegacao__link">Informações</a>
+            <a href="ingressos.html" class="navegacao__link">Ingressos</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="banner setores">
+            <h1 class="banner__titulo">Mapa de Setores</h1>
+        </section>
+        <img src="img/mapa_setores.svg" alt="Mapa de setores do evento com legendas." class="banner__mapa">
+
+        <section class="setores">
+            <h2 class="setores__titulo">Mais detalhes sobre os setores:</h2>
+            <div class="setores__container">
+                <div class="setores__descricao">
+                    <img src="img/imagem_pista.svg" alt="Multidão em uma pista." class="setores__imagem">
+                    <h3 class="setores__subtitulo">Pista</h3>
+                    <p class="setores__texto">Pista convencional, atendida pelos bares e banheiros das laterais do estádio. Espaço amplo, com local para sentar e descansar. Separada da pista premium por uma grade.</p>
+                </div>
+                <div class="setores__descricao meio">
+                    <img src="img/imagem_pista-premium.svg" alt="Multidão em meio ao show com fumaças coloridas e o palco de fundo." class="setores__imagem">
+                    <h3 class="setores__subtitulo">Pista Premium</h3>
+                    <p class="setores__texto">Pista mais próxima do palco, com acesso muito próximo a banheiros e bares num raio de 100m. Todas as pessoas idosas e/ou com deficiência têm direito a acesso gratuito a essa área.</p>
+                </div>
+                <div class="setores__descricao">
+                    <img src="img/imagem_cadeiras.svg" alt="Série de cadeiras em arquibancadas fechadas." class="setores__imagem">
+                    <h3 class="setores__subtitulo">Cadeiras</h3>
+                    <p class="setores__texto">Opção de cadeiras térreas ou elevadas. Acesso próximo a banheiros e bares, visão um pouco elevada em relação às pistas.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="rodape">
+        <div class="rodape__redes">
+            <img src="./img/Logo Code Chella.svg" alt="Logo do CodeChella" class="redes__logo">
+            <div class="redes__botoes">
+                <p class="botoes__texto">Acesse minhas redes:</p>
+                <div class="botoes__links">
+                    <a href="#" class="botoes__ancora">
+                        <img src="img/whatsapp.png" alt="Icone WhatsApp" class="botoes__ancora__imagem">
+                    </a>
+                    <a href="#" class="botoes__ancora">
+                        <img src="img/twitch.png" alt="Icone Twitch" class="botoes__ancora__imagem">
+                    </a>
+                    <a href="#" class="botoes__ancora">
+                        <img src="img/insta.png" alt="Icone Instagram" class="botoes__ancora__imagem">
+                    </a>
+                    <a href="#" class="botoes__ancora">
+                        <img src="img/twitter.png" alt="Icone Twitter" class="botoes__ancora__imagem">
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="rodape__texto">
+            <p>Desenvolvido por João Pedro Alves.</p>
+            <p>Projeto fictício sem fins comerciais.</p>
+        </div>
+    </footer>
+</body>
+</html>

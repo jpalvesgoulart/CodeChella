@@ -1,0 +1,79 @@
+.meuingresso{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.meuingresso__texto{
+    font-size: 32px;
+    margin: 1.5em 9em;
+    text-align: center;
+}
+
+.meuingresso__container{
+    width: 60vw;
+    margin-bottom: 2em;
+    background: var(--cor-boreal);
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+.meuingresso__cabecalho{
+    margin: 2em;
+}
+
+.meuingresso__informacoes{
+    display: flex;
+    align-items: center;
+    margin: 2em;
+    gap: 4em;
+}
+
+.meuingresso__descricao{
+    font-weight: 500;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.meuingresso__nome{
+    font-weight: 700;
+    font-size: 32px;
+}
+
+@media screen and (max-width: 768px) {
+    .meuingresso__texto{
+        margin: 1.5em 2em;
+    }
+
+    .meuingresso__cabecalho{
+        width: 70vw;
+    }
+
+    .meuingresso__container{
+        width: 80vw;
+    }
+
+    .meuingresso__informacoes{
+        flex-direction: column;
+        gap: 3em;
+    }
+
+    .meuingresso__descricao{
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .meuingresso__texto{
+        margin: 1em;
+    }
+
+    .meuingresso__cabecalho{
+        width: 80vw;
+        margin: 1em;
+    }
+
+    .meuingresso__container{
+        width: 90vw;
+    }
+}
