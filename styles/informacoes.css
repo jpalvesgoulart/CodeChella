@@ -50,7 +50,7 @@
     color:#131313
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 945px) {
     .caixa__cabecalho{
         width: 70vw;
     }
@@ -60,7 +60,7 @@
     }
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 670px) {
     .perguntas__titulo{
         font-size: 32px;
     }

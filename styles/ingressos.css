@@ -64,7 +64,7 @@
     display: none;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 945px) {
     .formulario__caixa-pequena{
         display: none;
     }
@@ -76,7 +76,7 @@
     }
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 670px) {
     .formulario__titulo{
         font-size: 32px;
         margin: 1em 1em 0 1em;

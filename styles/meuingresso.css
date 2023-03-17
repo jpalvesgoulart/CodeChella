@@ -40,7 +40,7 @@
     font-size: 32px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 945px) {
     .meuingresso__texto{
         margin: 1.5em 2em;
     }
@@ -63,7 +63,7 @@
     }
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 670px) {
     .meuingresso__texto{
         margin: 1em;
     }

@@ -63,7 +63,7 @@
     background-color: var(--primaria-roxo);
     box-shadow: 4px 4px 0px #444444;
     border-radius: 16px;
-    width: 50vh;
+    width: 50vw;
     justify-content: center;
     margin-top: 1em;
     padding: 1em;
@@ -74,7 +74,7 @@
     background: #519EC5;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 945px) {
     .datas{
         flex-direction: column;
     }
@@ -98,7 +98,7 @@
     }
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 670px) {
     .datas{
         margin: 1em;
     }

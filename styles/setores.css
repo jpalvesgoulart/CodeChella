@@ -33,7 +33,7 @@
     padding: 0 2em;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 945px) {
     .setores__titulo{
         margin: 0 2em;
     }
@@ -48,7 +48,7 @@
     }
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 670px) {
     .setores__titulo{
         font-size: 32px;
         margin: 1em;

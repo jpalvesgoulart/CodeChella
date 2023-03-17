@@ -57,7 +57,7 @@
     background-position: center;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 945px) {
     .container__data.sabado{
         margin: 1em 24vw;
     }
@@ -76,7 +76,7 @@
     }
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 670px) {
     .atracoes__titulo{
         margin-top: 1em;
         font-size: 48px;

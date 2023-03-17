@@ -45,13 +45,13 @@
     margin: 2em 0 2em 3.5em;
 }
 
-@media screen and (min-width: 426px) and (max-width: 768px) {
+@media screen and (min-width: 670px) and (max-width: 945px) {
     .banner__titulo{
         width: 70vw;
     }
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 670px) {
     .banner__titulo{
         width: 90vw;
         font-size: 32px;
