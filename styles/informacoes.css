@@ -29,10 +29,34 @@
 }
 
 .caixa__corpo{
+    display: none;
+    max-height: 0;
     width: 50vw;
     background-color: #C8DEEF;
     padding: 0.5em;
     margin-bottom: 0.5em;
+}
+
+.caixa__corpo.active{
+    display: block;
+    max-height: 1000px;
+}
+
+.caixa__seta.active{
+    display: block;
+    transform: none;
+    transition: transform 0.2s ease-in-out;
+}
+
+.caixa__seta{
+    width: 30px;
+    height: 30px;
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    transform: rotate(90deg);
+    transition: transform 0.5s ease-in-out;
 }
 
 .caixa__texto, .caixa__texto a{
@@ -49,6 +73,7 @@
 .caixa__texto a:hover{
     color:#131313
 }
+
 
 @media screen and (max-width: 945px) {
     .caixa__cabecalho{
