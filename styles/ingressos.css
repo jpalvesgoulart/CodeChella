@@ -64,11 +64,12 @@
     display: none;
 }
 
-@media screen and (max-width: 945px) {
-    .formulario__caixa-pequena{
-        display: none;
-    }
+.input__selection{
+    font-weight: 500;
+    color: var(--cor-cinza);
+}
 
+@media screen and (max-width: 945px) {
     .formulario__caixa-grande{
         display: flex;
         flex-direction: column;
@@ -89,12 +90,6 @@
 
     .formulario__input.selection{
         display: block;
-        font-weight: 500;
-        color: var(--cor-cinza);
-
-    }
-
-    .input__selection{
         font-weight: 500;
         color: var(--cor-cinza);
 

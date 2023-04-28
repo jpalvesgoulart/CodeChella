@@ -55,59 +55,39 @@
             <h1 class="banner__titulo">Garanta seu Ingresso</h1>
         </section>
 
-        <section class="formulario">
+        <form class="formulario" id="form">
             <h2 class="formulario__titulo">Preencha o formulário a seguir:</h2>
-            <div class="formulario__caixa">
-                <h3 class="formulario__texto">Nome Completo:</h3>
-                <input type="text" id="input" class="formulario__input">
-            </div>
+            <fieldset class="formulario__caixa">
+                <label class="formulario__texto">Nome Completo:</label>
+                <input name="nome" type="text" id="input-nome" class="formulario__input" minlength="3" required>
+            </fieldset>
 
-            <div class="formulario__caixa">
-                <h3 class="formulario__texto">Email:</h3>
-                <input type="text" id="input" class="formulario__input">
-            </div>
+            <fieldset class="formulario__caixa">
+                <label class="formulario__texto">Email:</label>
+                <input name="email" type="email" id="input-email" class="formulario__input" minlength="8" required>
+            </fieldset>
 
-            <div class="formulario__caixa-pequena">
-                <div class="formulario__caixa">
-                    <h3 class="formulario__texto">Tipo de Ingresso:</h3>
-                    <input type="text" id="input" class="formulario__input text pequeno">
-                    <select name="tipo" id="select" class="formulario__input selection">
-                        <option value="pista" class="input__selection">Pista</option>
-                        <option value="pista" class="input__selection">Pista Premium</option>
-                        <option value="pista" class="input__selection">Cadeiras</option>
-                    </select>
-                </div>
-
-                <div class="formulario__caixa">
-                    <h3 class="formulario__texto">Data de Nascimento:</h3>
-                    <input type="date" id="input" class="formulario__input date pequeno">
-                </div>
-            </div>
-
-            <div class="formulario__caixa-grande">
-                <div class="formulario__caixa">
-                    <h3 class="formulario__texto">Tipo de Ingresso:</h3>
-                    <input type="text" id="input" class="formulario__input text">
-                    <select name="tipo" id="select" class="formulario__input selection">
-                        <option value="pista" class="input__selection">Pista</option>
-                        <option value="pista-premium" class="input__selection">Pista Premium</option>
-                        <option value="cadeiras" class="input__selection">Cadeiras</option>
-                    </select>
-                </div>
+            <fieldset class="formulario__caixa">
+                <label class="formulario__texto">Tipo de Ingresso:</label>
+                <select name="tipo" id="select" class="formulario__input" required>
+                    <option value="" class="input__selection">Escolha um opção abaixo:</option>
+                    <option value="pista" class="input__selection">Pista</option>
+                    <option value="pista-premium" class="input__selection">Pista Premium</option>
+                    <option value="cadeiras" class="input__selection">Cadeiras</option>
+                </select>
+            </fieldset>
     
-                <div class="formulario__caixa">
-                    <h3 class="formulario__texto">Data de Nascimento:</h3>
-                    <input type="date" id="input" class="formulario__input date">
-                </div>
-            </div>
-            
-            <a href="meuingresso.html" class="formulario__botao">
-                <strong>Avançar!</strong>
+            <fieldset class="formulario__caixa">
+                <label class="formulario__texto">Data de Nascimento:</label>
+                <input name="date" type="date" id="input-data" class="formulario__input" required>
+            </fieldset>
+
+            <div class="formulario__botao">
+                <input value="Avançar!" style="background: transparent; border: none;" id="botao-form" type="submit">
                 <img src="../img/seta_direita.svg" class="botao__imagem">
-            </a>
-        </section>
-
-
+                <span class="mensagem-erro"></span>
+            </div>
+        </form>
     </main>
 
     <footer class="rodape">
@@ -137,6 +117,6 @@
             <p>Projeto fictício sem fins comerciais.</p>
         </div>
     </footer>
-    <script src="./js/form.js"></script>
+    <script src="../js/form.js"></script>
 </body>
 </html>

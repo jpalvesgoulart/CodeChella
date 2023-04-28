@@ -18,6 +18,11 @@
 }
 
 .meuingresso__cabecalho{
+    height: 50px;
+    width: 90%;
+    background-image: url('../img/cabecalho_ingresso.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
     margin: 2em;
 }
 
